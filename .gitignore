@@ -1,2 +1,34 @@
+# macOS
 .DS_Store
-target/*
+
+# Build output
+target/
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+
+# IDE - VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+output.log
+
+# Demo response files
+response_*.log
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
